@@ -26,7 +26,7 @@ label2.grid(row=0, column=1)
 month = Spinbox(root, from_=1, to=12, width=8)
 month.grid(row=1, column=0, padx=5)
 
-year = Spinbox(root, from_=2000, to=2100, width=10)
+year = Spinbox(root, from_=2000, to=2100, width=11)
 year.grid(row=1, column=1, padx=10)
 
 # Creating Button
