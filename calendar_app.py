@@ -23,7 +23,7 @@ label2 = Label(root, text="Year:")
 label2.grid(row=0, column=1)
 
 # Creating spinbox
-month = Spinbox(root, from_=1, to=12, width=8)
+month = Spinbox(root, from_=1, to=12, width=9)
 month.grid(row=1, column=0, padx=5)
 
 year = Spinbox(root, from_=2000, to=2100, width=11)
